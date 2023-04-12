@@ -1,5 +1,6 @@
 // Obtener el botón "Registrar"
 
+window.addEventListener("load", function() {
 
 var registrarBtn = document.getElementById("boton_registro");
 
@@ -8,10 +9,10 @@ registrarBtn.addEventListener("click", function(){
     
   // Obtener los valores de cada campo del formulario
   var nombre = document.getElementById("name").querySelector("input").value;
-  var apellidos = document.getElementById("last_name").querySelector("input").value;
-  var codigo = document.getElementById("code").querySelector("input").value;
-  var fechaNacimiento = document.getElementById("birth_date").querySelector("input").value;
-  var programa = document.getElementById("seleccion_programa").value;
+  var apellidos = document.getElementById("lastname").querySelector("input").value;
+  var codigo = document.getElementById("codigo_estudiante").querySelector("input").value;
+  var fechaNacimiento = document.getElementById("fecha_nacimiento").querySelector("input").value;
+  var programa = document.getElementById("programa_universidad").value;
   var genero = document.querySelector('input[name="gender"]:checked').value;
   var hobbies = document.querySelectorAll('input[name="hobbies"]:checked');
 
@@ -40,3 +41,4 @@ registrarBtn.addEventListener("click", function(){
 
 // Declarar un arreglo vacío para almacenar los estudiantes
 var arregloEstudiantes = [];
+});
