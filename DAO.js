@@ -26,10 +26,10 @@ class EstudianteDAO {
   }
   
   // Ejemplo de uso del DAO
-  const dao = new EstudianteDAO();
+  /*const dao = new EstudianteDAO();
   
   dao.getEstudiantes(); // Obtener lista de usuarios
   dao.guardarEstudiante({ nombre: "Juan", correo: "juan@example.com" }); // Guardar usuario: Juan
   dao.actualizarEstudiante({ nombre: "Juan", correo: "juan@example.com" }); // Actualizar usuario: Juan
   dao.eliminarEstudiante({ nombre: "Juan", correo: "juan@example.com" }); // Eliminar usuario: Juan
-  
+  */

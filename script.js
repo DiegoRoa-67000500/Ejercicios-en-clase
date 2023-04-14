@@ -1,6 +1,5 @@
 // Obtener el botón "Registrar"
 
-window.addEventListener("load", function() {
 
 var registrarBtn = document.getElementById("boton_registro");
 
@@ -11,9 +10,9 @@ registrarBtn.addEventListener("click", function(){
   var nombre = document.getElementById("name").querySelector("input").value;
   var apellidos = document.getElementById("lastname").querySelector("input").value;
   var codigo = document.getElementById("codigo_estudiante").querySelector("input").value;
-  var fechaNacimiento = document.getElementById("fecha_nacimiento").querySelector("input").value;
-  var programa = document.getElementById("programa_universidad").value;
-  var genero = document.querySelector('input[name="gender"]:checked').value;
+  var fechaNacimiento = document.getElementById("fechaNacimiento").querySelector("input").value;
+  var programa = document.getElementById("seleccion_programa").value;
+  var genero = document.querySelector('input[name="seleccion_genero"]:checked').value;
   var hobbies = document.querySelectorAll('input[name="hobbies"]:checked');
 
   // Crear un objeto con la información recogida del formulario
@@ -41,4 +40,3 @@ registrarBtn.addEventListener("click", function(){
 
 // Declarar un arreglo vacío para almacenar los estudiantes
 var arregloEstudiantes = [];
-});
