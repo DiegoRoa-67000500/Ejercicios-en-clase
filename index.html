@@ -1,32 +1,31 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>El tricky</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <section>
-        <h1 class="game--title">El buen Tricky</h1>
-        <div class="game--container">
-            <div data-cell-index="0" class="cell"></div>
-            <div data-cell-index="1" class="cell"></div>
-            <div data-cell-index="2" class="cell"></div>
-            <div data-cell-index="3" class="cell"></div>
-            <div data-cell-index="4" class="cell"></div>
-            <div data-cell-index="5" class="cell"></div>
-            <div data-cell-index="6" class="cell"></div>
-            <div data-cell-index="7" class="cell"></div>
-            <div data-cell-index="8" class="cell"></div>
-        </div>
-        <h2 class="game--status"></h2>
-        <button class="game--restart">Reiniciar partida</button>
-    </section>
-
-    <script src="script.js"></script>
+  <div class="container">
+    <h1>Tic Tac Toe</h1>
+    <div class="player-buttons">
+      <button id="player1" class="active">Jugador X</button>
+      <button id="player2">Jugador O</button>
+    </div>
+    <div class="board">
+      <div class="cell" id="0"></div>
+      <div class="cell" id="1"></div>
+      <div class="cell" id="2"></div>
+      <div class="cell" id="3"></div>
+      <div class="cell" id="4"></div>
+      <div class="cell" id="5"></div>
+      <div class="cell" id="6"></div>
+      <div class="cell" id="7"></div>
+      <div class="cell" id="8"></div>
+    </div>
+    <div class="status">Turn for Jugador 1</div>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
- 
