@@ -1,108 +1,26 @@
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    }
-    
-    /* Estilos para el formulario */
-    #formulario {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    }
-    
-    #formulario li {
-    margin-bottom: 20px;
-    }
-    
-    #formulario label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    }
-    
-    #formulario input[type="text"],
-    #formulario input[type="date"],
-    #formulario select {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-    }
-    
-    #formulario input[type="radio"],
-    #formulario input[type="checkbox"] {
-    margin-right: 5px;
-    }
-    
-    #formulario input[type="button"] {
-    padding: 10px;
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    }
-    
-    #formulario input[type="button"]:hover {
-    background-color: #006F8C;
-    }
-    
-    #name input[type="text"]:focus,
-    #lastname input[type="text"]:focus,
-    #codigo_estudiante input[type="text"]:focus,
-    #fecha_nacimiento input[type="date"]:focus,
-    #programa_universidad select:focus {
-    outline: none;
-    box-shadow: 0 0 5px #008CBA;
-    }
-    
-    /* Estilos para los errores */
-    .error {
-    color: #FF0000;
-    font-size: 12px;
-    margin-top: 5px;
-    }
-    
-    .error input[type="text"],
-    .error input[type="date"],
-    .error select {
-    border-color: #FF0000;
-    }
-    
-    /* Estilos para los mensajes de éxito */
-    .success {
-    color: #008CBA;
-    font-size: 12px;
-    margin-top: 5px;
-    }
-    
-    .success input[type="text"],
-    .success input[type="date"],
-    .success select {
-    border-color: #008CBA;
-    }
-    
-    /* Estilos para los checkboxes y radios */
-    #seleccion_genero input[type="radio"],
-    #seleccion_genero input[type="checkbox"] {
-    margin-right: 5px;
-    vertical-align: middle;
-    }
-    
-    /* Estilos para el botón "Registrar" */
-    #registro {
-    margin-top: 20px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #008CBA;
-    border: none;
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    }
-    
-    #registro:hover {
-    background-color: #006F8C;
-    }
+.calculator {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+form {
+	margin-bottom: 10px;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+}
+
+input[type="text"] {
+	width: 150px;
+	margin-bottom: 10px;
+}
+
+button {
+	margin-right: 10px;
+}
+
+#resultado {
+	font-weight: bold;
+}
